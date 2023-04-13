@@ -1,1 +1,1 @@
-Put b2tester dir into WordPress plugins dir, thank you.
+Hello! Please, put b2tester dir into WordPress plugins dir, thank you.
