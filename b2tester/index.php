@@ -33,7 +33,7 @@ class B2Tester {
 				$args = [
 					'numberposts' => 3,
 					'orderby' => 'post_date',
-					'order' => 'DESC',
+					'order' => 'ASC',
 					'post_type' => 'post'
 				];
 				$posts = wp_get_recent_posts($args);
@@ -48,7 +48,7 @@ class B2Tester {
 			case 'custom':
 				/** alternative */
 				global $wpdb, $table_prefix;
-				$result = $wpdb->get_results("SELECT ID, post_content from ".$table_prefix."posts where post_type = 'post' order by post_date DESC limit 3");
+				$result = $wpdb->get_results("SELECT ID, post_content from ".$table_prefix."posts where post_type = 'post' order by post_date ASC limit 3");
 			break;
 		}
 		wp_send_json($result);
