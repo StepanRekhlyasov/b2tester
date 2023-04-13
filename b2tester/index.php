@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: b2tester
-Plugin URI: https://github.com/StepanRekhlyasov
+Plugin URI: https://github.com/StepanRekhlyasov/b2tester
 Description: This plugin will be automatically working on any page with post type “page” when enabled from the admin dashboard.
 Author: Stepan Rekhlyasov <srekhlyasov@gmail.com>
 Author URI: https://github.com/StepanRekhlyasov
